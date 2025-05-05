@@ -12015,4 +12015,9 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

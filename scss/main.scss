@@ -28,11 +28,16 @@ p{
         background-image:url(../images/christmas-wallpaper-2009590_1280.jpg);
         background-size:cover ;
          filter: brightness(0.3);}
- *{position: relative;}
+    //positionner les éléments devant le ::before
+ *{position: relative;}}
 .hero-scene-content{
     height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;}
+
+.text-center{
+    display: flex;
+    justify-content: center;
 }
